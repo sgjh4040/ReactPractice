@@ -31,7 +31,7 @@ const NumberBasball = () => {
                 ...t, { try: value, result: '홈런!', }
             ]));
             setResult('홈런');
-            alert('게임 다시 실행합니다.');
+            alert('홈런, 게임 다시 실행합니다.');
             setValue('');
             setAnswer(getNumbers());
             setTries([]);
